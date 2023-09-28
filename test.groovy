@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Get Source Code') {
             steps {
-                git credentialsId: '', url: 'https://github.com/veerpatil/JenkinsDemo.git'
+                git credentialsId: 'nn-github', url: 'https://github.com/Narian318/JenkinsDemo.git'
                 echo 'Hello World'
             }
         }
